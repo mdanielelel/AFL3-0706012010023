@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0454A1BB29E4F10500B1E95C /* AFL3_0706012010023_Shaquille_MuhammadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454A1BA29E4F10500B1E95C /* AFL3_0706012010023_Shaquille_MuhammadApp.swift */; };
+		0454A1BD29E4F10500B1E95C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454A1BC29E4F10500B1E95C /* ContentView.swift */; };
+		0454A1BF29E4F10700B1E95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0454A1BE29E4F10700B1E95C /* Assets.xcassets */; };
+		0454A1C229E4F10700B1E95C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0454A1C129E4F10700B1E95C /* Preview Assets.xcassets */; };
+		0454A1C429E4F10700B1E95C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454A1C329E4F10700B1E95C /* Persistence.swift */; };
+		0454A1C729E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0454A1C529E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodeld */; };
+		0454A1D129E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454A1D029E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadTests.swift */; };
+		0454A1DB29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454A1DA29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITests.swift */; };
+		0454A1DD29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454A1DC29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0454A1CD29E4F10700B1E95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0454A1AF29E4F10500B1E95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0454A1B629E4F10500B1E95C;
+			remoteInfo = "AFL3-0706012010023-Shaquille Muhammad";
+		};
+		0454A1D729E4F10700B1E95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0454A1AF29E4F10500B1E95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0454A1B629E4F10500B1E95C;
+			remoteInfo = "AFL3-0706012010023-Shaquille Muhammad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0454A1B729E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL3-0706012010023-Shaquille Muhammad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0454A1BA29E4F10500B1E95C /* AFL3_0706012010023_Shaquille_MuhammadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012010023_Shaquille_MuhammadApp.swift; sourceTree = "<group>"; };
+		0454A1BC29E4F10500B1E95C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0454A1BE29E4F10700B1E95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0454A1C129E4F10700B1E95C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0454A1C329E4F10700B1E95C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0454A1C629E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AFL3_0706012010023_Shaquille_Muhammad.xcdatamodel; sourceTree = "<group>"; };
+		0454A1CC29E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-0706012010023-Shaquille MuhammadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0454A1D029E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012010023_Shaquille_MuhammadTests.swift; sourceTree = "<group>"; };
+		0454A1D629E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL3-0706012010023-Shaquille MuhammadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0454A1DA29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012010023_Shaquille_MuhammadUITests.swift; sourceTree = "<group>"; };
+		0454A1DC29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL3_0706012010023_Shaquille_MuhammadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0454A1B429E4F10500B1E95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0454A1C929E4F10700B1E95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0454A1D329E4F10700B1E95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0454A1AE29E4F10500B1E95C = {
+			isa = PBXGroup;
+			children = (
+				0454A1B929E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad */,
+				0454A1CF29E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadTests */,
+				0454A1D929E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadUITests */,
+				0454A1B829E4F10500B1E95C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0454A1B829E4F10500B1E95C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0454A1B729E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad.app */,
+				0454A1CC29E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadTests.xctest */,
+				0454A1D629E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0454A1B929E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad */ = {
+			isa = PBXGroup;
+			children = (
+				0454A1BA29E4F10500B1E95C /* AFL3_0706012010023_Shaquille_MuhammadApp.swift */,
+				0454A1BC29E4F10500B1E95C /* ContentView.swift */,
+				0454A1BE29E4F10700B1E95C /* Assets.xcassets */,
+				0454A1C329E4F10700B1E95C /* Persistence.swift */,
+				0454A1C529E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodeld */,
+				0454A1C029E4F10700B1E95C /* Preview Content */,
+			);
+			path = "AFL3-0706012010023-Shaquille Muhammad";
+			sourceTree = "<group>";
+		};
+		0454A1C029E4F10700B1E95C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0454A1C129E4F10700B1E95C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0454A1CF29E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadTests */ = {
+			isa = PBXGroup;
+			children = (
+				0454A1D029E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadTests.swift */,
+			);
+			path = "AFL3-0706012010023-Shaquille MuhammadTests";
+			sourceTree = "<group>";
+		};
+		0454A1D929E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0454A1DA29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITests.swift */,
+				0454A1DC29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITestsLaunchTests.swift */,
+			);
+			path = "AFL3-0706012010023-Shaquille MuhammadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0454A1B629E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0454A1E029E4F10700B1E95C /* Build configuration list for PBXNativeTarget "AFL3-0706012010023-Shaquille Muhammad" */;
+			buildPhases = (
+				0454A1B329E4F10500B1E95C /* Sources */,
+				0454A1B429E4F10500B1E95C /* Frameworks */,
+				0454A1B529E4F10500B1E95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFL3-0706012010023-Shaquille Muhammad";
+			productName = "AFL3-0706012010023-Shaquille Muhammad";
+			productReference = 0454A1B729E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0454A1CB29E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0454A1E329E4F10700B1E95C /* Build configuration list for PBXNativeTarget "AFL3-0706012010023-Shaquille MuhammadTests" */;
+			buildPhases = (
+				0454A1C829E4F10700B1E95C /* Sources */,
+				0454A1C929E4F10700B1E95C /* Frameworks */,
+				0454A1CA29E4F10700B1E95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0454A1CE29E4F10700B1E95C /* PBXTargetDependency */,
+			);
+			name = "AFL3-0706012010023-Shaquille MuhammadTests";
+			productName = "AFL3-0706012010023-Shaquille MuhammadTests";
+			productReference = 0454A1CC29E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0454A1D529E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0454A1E629E4F10700B1E95C /* Build configuration list for PBXNativeTarget "AFL3-0706012010023-Shaquille MuhammadUITests" */;
+			buildPhases = (
+				0454A1D229E4F10700B1E95C /* Sources */,
+				0454A1D329E4F10700B1E95C /* Frameworks */,
+				0454A1D429E4F10700B1E95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0454A1D829E4F10700B1E95C /* PBXTargetDependency */,
+			);
+			name = "AFL3-0706012010023-Shaquille MuhammadUITests";
+			productName = "AFL3-0706012010023-Shaquille MuhammadUITests";
+			productReference = 0454A1D629E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0454A1AF29E4F10500B1E95C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0454A1B629E4F10500B1E95C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0454A1CB29E4F10700B1E95C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0454A1B629E4F10500B1E95C;
+					};
+					0454A1D529E4F10700B1E95C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0454A1B629E4F10500B1E95C;
+					};
+				};
+			};
+			buildConfigurationList = 0454A1B229E4F10500B1E95C /* Build configuration list for PBXProject "AFL3-0706012010023-Shaquille Muhammad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0454A1AE29E4F10500B1E95C;
+			productRefGroup = 0454A1B829E4F10500B1E95C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0454A1B629E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad */,
+				0454A1CB29E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadTests */,
+				0454A1D529E4F10700B1E95C /* AFL3-0706012010023-Shaquille MuhammadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0454A1B529E4F10500B1E95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0454A1C229E4F10700B1E95C /* Preview Assets.xcassets in Resources */,
+				0454A1BF29E4F10700B1E95C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0454A1CA29E4F10700B1E95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0454A1D429E4F10700B1E95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0454A1B329E4F10500B1E95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0454A1C429E4F10700B1E95C /* Persistence.swift in Sources */,
+				0454A1C729E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodeld in Sources */,
+				0454A1BD29E4F10500B1E95C /* ContentView.swift in Sources */,
+				0454A1BB29E4F10500B1E95C /* AFL3_0706012010023_Shaquille_MuhammadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0454A1C829E4F10700B1E95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0454A1D129E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0454A1D229E4F10700B1E95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0454A1DD29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITestsLaunchTests.swift in Sources */,
+				0454A1DB29E4F10700B1E95C /* AFL3_0706012010023_Shaquille_MuhammadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0454A1CE29E4F10700B1E95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0454A1B629E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad */;
+			targetProxy = 0454A1CD29E4F10700B1E95C /* PBXContainerItemProxy */;
+		};
+		0454A1D829E4F10700B1E95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0454A1B629E4F10500B1E95C /* AFL3-0706012010023-Shaquille Muhammad */;
+			targetProxy = 0454A1D729E4F10700B1E95C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0454A1DE29E4F10700B1E95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0454A1DF29E4F10700B1E95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0454A1E129E4F10700B1E95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFL3-0706012010023-Shaquille Muhammad/Preview Content\"";
+				DEVELOPMENT_TEAM = 632Q9SW6SH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShaquilleOnly.AFL3-0706012010023-Shaquille-Muhammad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0454A1E229E4F10700B1E95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AFL3-0706012010023-Shaquille Muhammad/Preview Content\"";
+				DEVELOPMENT_TEAM = 632Q9SW6SH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShaquilleOnly.AFL3-0706012010023-Shaquille-Muhammad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0454A1E429E4F10700B1E95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 632Q9SW6SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShaquilleOnly.AFL3-0706012010023-Shaquille-MuhammadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFL3-0706012010023-Shaquille Muhammad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFL3-0706012010023-Shaquille Muhammad";
+			};
+			name = Debug;
+		};
+		0454A1E529E4F10700B1E95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 632Q9SW6SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShaquilleOnly.AFL3-0706012010023-Shaquille-MuhammadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFL3-0706012010023-Shaquille Muhammad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AFL3-0706012010023-Shaquille Muhammad";
+			};
+			name = Release;
+		};
+		0454A1E729E4F10700B1E95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 632Q9SW6SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShaquilleOnly.AFL3-0706012010023-Shaquille-MuhammadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFL3-0706012010023-Shaquille Muhammad";
+			};
+			name = Debug;
+		};
+		0454A1E829E4F10700B1E95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 632Q9SW6SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShaquilleOnly.AFL3-0706012010023-Shaquille-MuhammadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AFL3-0706012010023-Shaquille Muhammad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0454A1B229E4F10500B1E95C /* Build configuration list for PBXProject "AFL3-0706012010023-Shaquille Muhammad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0454A1DE29E4F10700B1E95C /* Debug */,
+				0454A1DF29E4F10700B1E95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0454A1E029E4F10700B1E95C /* Build configuration list for PBXNativeTarget "AFL3-0706012010023-Shaquille Muhammad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0454A1E129E4F10700B1E95C /* Debug */,
+				0454A1E229E4F10700B1E95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0454A1E329E4F10700B1E95C /* Build configuration list for PBXNativeTarget "AFL3-0706012010023-Shaquille MuhammadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0454A1E429E4F10700B1E95C /* Debug */,
+				0454A1E529E4F10700B1E95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0454A1E629E4F10700B1E95C /* Build configuration list for PBXNativeTarget "AFL3-0706012010023-Shaquille MuhammadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0454A1E729E4F10700B1E95C /* Debug */,
+				0454A1E829E4F10700B1E95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0454A1C529E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0454A1C629E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodel */,
+			);
+			currentVersion = 0454A1C629E4F10700B1E95C /* AFL3_0706012010023_Shaquille_Muhammad.xcdatamodel */;
+			path = AFL3_0706012010023_Shaquille_Muhammad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0454A1AF29E4F10500B1E95C /* Project object */;
+}
